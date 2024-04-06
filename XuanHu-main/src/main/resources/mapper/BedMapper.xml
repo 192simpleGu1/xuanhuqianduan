@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="generator.mapper.BedMapper">
+
+    <resultMap id="BaseResultMap" type="generator.domain.Bed">
+            <id property="bedId" column="bed_id" jdbcType="VARCHAR"/>
+            <result property="equipmentId" column="equipment_id" jdbcType="VARCHAR"/>
+            <result property="phone" column="phone" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        bed_id,equipment_id,phone
+    </sql>
+</mapper>

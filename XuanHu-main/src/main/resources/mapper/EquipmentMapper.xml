@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="generator.mapper.EquipmentMapper">
+
+    <resultMap id="BaseResultMap" type="generator.domain.Equipment">
+            <id property="equipmentId" column="equipment_id" jdbcType="VARCHAR"/>
+            <result property="bindDate" column="bind_date" jdbcType="TIMESTAMP"/>
+            <result property="equipmentBalance" column="equipment_balance" jdbcType="DOUBLE"/>
+            <result property="phone" column="phone" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        equipment_id,bind_date,equipment_balance,
+        phone
+    </sql>
+</mapper>

@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: Infusion
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://172.28.155.70:3301/Infusion?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  data:
+    redis:
+      host: 172.28.155.70
+      port: 6379
+      password: 123456
+user:
+  password:
+    salt: zfq123456
+
+login:
+  token:
+    key: thismykey

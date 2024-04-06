@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\顾志勋1\\.ohos\\config\\auto_debug_XuanHu-master-8d1aa7c233f3b7e597bb2438e7313e3335a45bb9_com.example.hbits_160086000126149403.cer",
+          "storePassword": "0000001B747E66A75CE6381F1D960941CACB7BA009F9065BDD8C78E4C6454B705313E77C472841F3F14676",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BB8FCC872794BF2153B6250A0BC750B5F375A914DDAAB42D1E4789E0F09C932A7A351CCB5798BF5",
+          "profile": "C:\\Users\\顾志勋1\\.ohos\\config\\auto_debug_XuanHu-master-8d1aa7c233f3b7e597bb2438e7313e3335a45bb9_com.example.hbits_160086000126149403.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\顾志勋1\\.ohos\\config\\auto_debug_XuanHu-master-8d1aa7c233f3b7e597bb2438e7313e3335a45bb9_com.example.hbits_160086000126149403.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

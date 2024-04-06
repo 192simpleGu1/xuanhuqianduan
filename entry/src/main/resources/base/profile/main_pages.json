@@ -1,0 +1,11 @@
+{
+  "src": [
+    "pages/log",
+    "pages/reg",
+    "pages/balance",
+    "pages/main",
+    "pages/recharge",
+    "pages/main2",
+    "pages/renew"
+  ]
+}
